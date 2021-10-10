@@ -15,7 +15,7 @@ before_install: # if "install" is overridden
   - yarn -v
   
 cache:
-  # npm: false
+  npm: false
   # Yarn 2 caches to the local .yarn directory, not the Travis default `$HOME/.yarn` 
   directories:
     - ./.yarn/cache
