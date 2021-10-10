@@ -19,6 +19,9 @@ cache:
   # Yarn 2 caches to the local .yarn directory, not the Travis default `$HOME/.yarn` 
   directories:
     - ./.yarn/cache
+    
+script:
+  - yarn build
 
 deploy:
   # Use Github pages deploy process
