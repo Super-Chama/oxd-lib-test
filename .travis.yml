@@ -11,7 +11,6 @@ cache:
 
 before_install:
   - npm install -g yarn
-  - yarn set version berry
 
 # Use custom install step as Travis by default uses the --frozen-lockfile flag, which is deprecated
 install: yarn
