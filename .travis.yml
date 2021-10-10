@@ -13,6 +13,7 @@ before_install: # if "install" is overridden
   - export PATH="$HOME/.yarn/bin:$PATH"
   # Then the local Yarn 2 should be available and get used
   - yarn -v
+  - yarn add regenerator-runtime
   
 cache:
   npm: false
