@@ -1,8 +1,10 @@
 <template>
   <SampleForm></SampleForm>
-  <br/>
+  <br />
   <HtmlForm></HtmlForm>
-  <br/>
+  <br />
+  <YupForm></YupForm>
+  <br />
   <CardTable></CardTable>
 </template>
 
@@ -10,6 +12,7 @@
 import { defineComponent } from "vue";
 import SampleForm from "./components/SampleForm.vue";
 import HtmlForm from "./components/HtmlForm.vue";
+import YupForm from "./components/YupForm.vue";
 import CardTable from "./components/CardTable.vue";
 
 export default defineComponent({
@@ -17,7 +20,8 @@ export default defineComponent({
   components: {
     SampleForm,
     HtmlForm,
-    CardTable
+    YupForm,
+    CardTable,
   },
 });
 </script>

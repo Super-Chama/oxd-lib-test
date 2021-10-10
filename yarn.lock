@@ -1209,7 +1209,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.11.0, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.11.0, @babel/runtime@npm:^7.8.4":
   version: 7.15.4
   resolution: "@babel/runtime@npm:7.15.4"
   dependencies:
@@ -1499,6 +1499,13 @@ __metadata:
   version: 7.0.9
   resolution: "@types/json-schema@npm:7.0.9"
   checksum: 259d0e25f11a21ba5c708f7ea47196bd396e379fddb79c76f9f4f62c945879dc21657904914313ec2754e443c5018ea8372362f323f30e0792897fdb2098a705
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.14.165":
+  version: 4.14.175
+  resolution: "@types/lodash@npm:4.14.175"
+  checksum: 50721f33faa542f1b9f62f2ba769ed353c6036711e92bd89ce569f2ed247e38fb2a2899f6fd46466b1690fea7ae0239471e6a6093c54e8f2b0613e43e8eac19c
   languageName: node
   linkType: hard
 
@@ -2178,6 +2185,13 @@ __metadata:
     prettier:
       optional: true
   checksum: ae2d08b4c1907c1bdb2c35e0d67e58afd3afa053bbc5f9cdb6de8915b051124d034cd6b14808aca5c93776289dd832e5514847e4fb925571857aa237262d753a
+  languageName: node
+  linkType: hard
+
+"@vue/devtools-api@npm:^6.0.0-beta.15":
+  version: 6.0.0-beta.19
+  resolution: "@vue/devtools-api@npm:6.0.0-beta.19"
+  checksum: 2eecb7096540ed2777d16e9be21f81429cc8eeed8fcef14dc0481db3f213dad8e3534e099cf268bc91ffbc5a721b3e5252a3ae38a5cc9f67ab59ee24204e974c
   languageName: node
   linkType: hard
 
@@ -7776,6 +7790,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"lodash-es@npm:^4.17.15":
+  version: 4.17.21
+  resolution: "lodash-es@npm:4.17.21"
+  checksum: 05cbffad6e2adbb331a4e16fbd826e7faee403a1a04873b82b42c0f22090f280839f85b95393f487c1303c8a3d2a010048bf06151a6cbe03eee4d388fb0a12d2
+  languageName: node
+  linkType: hard
+
 "lodash.debounce@npm:^4.0.8":
   version: 4.0.8
   resolution: "lodash.debounce@npm:4.0.8"
@@ -8400,6 +8421,13 @@ fsevents@~2.3.2:
   dependencies:
     node-gyp: latest
   checksum: 33e1bb4dfca447fe37d4bb5889be55de154828632c8d38646db67293a21afd61ed9909cdf1b886214a64707d935926c4e60e2b09de9edfc2ad58de31d6ce8f39
+  languageName: node
+  linkType: hard
+
+"nanoclone@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "nanoclone@npm:0.2.1"
+  checksum: 96b2954e22f70561f41e20d69856266c65583c2a441dae108f1dc71b716785d2c8038dac5f1d5e92b117aed3825f526b53139e2e5d6e6db8a77cfa35b3b8bf40
   languageName: node
   linkType: hard
 
@@ -9820,6 +9848,13 @@ fsevents@~2.3.2:
     err-code: ^2.0.2
     retry: ^0.12.0
   checksum: f96a3f6d90b92b568a26f71e966cbbc0f63ab85ea6ff6c81284dc869b41510e6cdef99b6b65f9030f0db422bf7c96652a3fff9f2e8fb4a0f069d8f4430359429
+  languageName: node
+  linkType: hard
+
+"property-expr@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "property-expr@npm:2.0.4"
+  checksum: 7ac142e189f0feef685f327f582efe13bfbc24a0b6e2328afdb38520bc140caa5f91dfa9529f2539b4468d85dc83a593e1ef0e0f7401b525368bb634b323bf54
   languageName: node
   linkType: hard
 
@@ -11625,6 +11660,13 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"toposort@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "toposort@npm:2.0.2"
+  checksum: d64c74b570391c9432873f48e231b439ee56bc49f7cb9780b505cfdf5cb832f808d0bae072515d93834dd6bceca5bb34448b5b4b408335e4d4716eaf68195dcb
+  languageName: node
+  linkType: hard
+
 "tough-cookie@npm:~2.5.0":
   version: 2.5.0
   resolution: "tough-cookie@npm:2.5.0"
@@ -12116,6 +12158,17 @@ typescript@~4.1.5:
   languageName: node
   linkType: hard
 
+"vee-validate@npm:next":
+  version: 4.5.2
+  resolution: "vee-validate@npm:4.5.2"
+  dependencies:
+    "@vue/devtools-api": ^6.0.0-beta.15
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: ec4cbae5f5fec14a61e8f5042d0e67e73b8f9c26b4ad3d056be224b86a9c01132fc0769c88dc9240aa5b1e93680a06d0e3308d02c8a247b0c323a719ccf5e19b
+  languageName: node
+  linkType: hard
+
 "vendors@npm:^1.0.0":
   version: 1.0.4
   resolution: "vendors@npm:1.0.4"
@@ -12238,7 +12291,9 @@ typescript@~4.1.5:
     sass: ^1.26.5
     sass-loader: ^8.0.2
     typescript: ~4.1.5
+    vee-validate: next
     vue: ^3.0.0
+    yup: ^0.32.9
   languageName: unknown
   linkType: soft
 
@@ -12722,5 +12777,20 @@ typescript@~4.1.5:
     normalize-path: ^1.0.0
     strip-indent: ^2.0.0
   checksum: 6810adaf6be7b6cc115ed9454e5a4e8e0949deecb107d65dc0c196051e862f04d6394ad12fbef0d51e6c730329992ae98625ba82cba5e34775023ddb6dc921b8
+  languageName: node
+  linkType: hard
+
+"yup@npm:^0.32.9":
+  version: 0.32.9
+  resolution: "yup@npm:0.32.9"
+  dependencies:
+    "@babel/runtime": ^7.10.5
+    "@types/lodash": ^4.14.165
+    lodash: ^4.17.20
+    lodash-es: ^4.17.15
+    nanoclone: ^0.2.1
+    property-expr: ^2.0.4
+    toposort: ^2.0.2
+  checksum: 3f33850913a237fb7e59b0b5c71d2cc6bdb1d6b2b01fc24c53ec68b35ad2b95cd49f735532117136495cb57f0ec58f0a7e1f1c55fad685555c7114155170f1ea
   languageName: node
   linkType: hard
